@@ -16,6 +16,14 @@ int main()
     }
 }
 
+// std::getline(string)
+// istream& getline(istream& is, string& str);
+// istream& getline(istream& is, string& str, char delim);
+// 인자
+// is: 입력스트림 오브젝트 ex) cin
+// str: 입력받은 문자열을 저장할 string 객체
+// delim: 제한자로 이 문자에 도달 시 추출이 중단됨.(이 문자는 스트림에서 사라지게 된다.)
+
 vector<string> split(string input, char delimiter)
 {
     vector<string> answer;
